@@ -1,0 +1,474 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: blueviolet;
+    color: white;
+}
+#contaner {
+    margin: 100px 80px 100px;
+}
+/*profile rede*/
+#profile {
+    display: flex;
+    flex-direction: column;
+}
+#profile img {
+    width: 130px;
+    border-radius: 80px;
+    padding: 10px;
+    margin: 10px 800px 10px;
+}
+#profile p{
+    margin: auto 790px auto;
+}
+/*links da rede*/
+.links {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+.links ul {
+    margin: 10px 10px 10px;
+}
+.links li {
+    display: flex;
+    padding: 10px;
+    transition: 1s;
+
+    
+}
+.links li a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    border: solid wheat;
+    border-radius: 8px;
+    width: 290px;
+    height: 50px;
+    padding: 12px 90px ;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    animation: zoomin 10s;
+}
+.links li:hover{
+    scale: 1.1;
+}
+keyframes zoomin {
+    from {
+       from {transform: scale(0.6);}
+       to {transform: scale(1);}
+    }
+}
+
+/*roda pe das redes*/
+#redes-soci {
+    display: flex;
+    justify-content: center; 
+    
+}
+#redes-soci #rd-1 a {
+    display: flex;
+    font-size: 100px;
+}
+/*spotfy*/
+.quadro {
+    display: flex;
+    justify-content: center;
+}
+.spot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen {
+    * {
+    max-width: 320px;    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: blueviolet;
+    color: white;
+}
+#contaner {
+    margin: 10px 10px 10px;
+}
+/*profile rede*/
+#profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#profile img {
+    width: 130px;
+    border-radius: 80px;
+    padding: 10px;
+    margin: 10px 10px 10px;
+}
+#profile p{
+    margin: auto 10px auto;
+}
+/*links da rede*/
+.links {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+.links ul {
+    margin: 10px 10px 10px;
+}
+.links li {
+    display: flex;
+    padding: 10px;
+    transition: 1s;
+
+    
+}
+.links li a{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    border: solid wheat;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    padding: 12px 50px ;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    animation: zoomin 10s;
+}
+.links li:hover{
+    scale: 1.1;
+}
+keyframes zoomin {
+    from {
+       from {transform: scale(0.6);}
+       to {transform: scale(1);}
+    }
+}
+
+/*roda pe das redes*/
+#redes-soci {
+    display: flex;
+    justify-content: center; 
+    
+}
+#redes-soci #rd-1 a {
+    display: flex;
+    font-size: 100px;
+}
+/*spotfy*/
+.quadro {
+    display: flex;
+    justify-content: center;
+}
+.spot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+}   
+}
+/*midia 430px*/
+@media screen {
+    * {
+    max-width: 430px;    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: blueviolet;
+    color: white;
+}
+#contaner {
+    margin: 10px 10px 10px;
+}
+/*profile rede*/
+#profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#profile img {
+    width: 130px;
+    border-radius: 80px;
+    padding: 10px;
+    margin: 10px 10px 10px;
+}
+#profile p{
+    margin: auto 10px auto;
+}
+/*links da rede*/
+.links {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+.links ul {
+    margin: 10px 10px 10px;
+}
+.links li {
+    display: flex;
+    padding: 10px;
+    transition: 1s;
+
+    
+}
+.links li a{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    border: solid wheat;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    padding: 12px 50px ;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    animation: zoomin 10s;
+}
+.links li:hover{
+    scale: 1.1;
+}
+keyframes zoomin {
+    from {
+       from {transform: scale(0.6);}
+       to {transform: scale(1);}
+    }
+}
+
+/*roda pe das redes*/
+#redes-soci {
+    display: flex;
+    justify-content: center; 
+    
+}
+#redes-soci #rd-1 a {
+    display: flex;
+    font-size: 100px;
+}
+/*spotfy*/
+.quadro {
+    display: flex;
+    justify-content: center;
+}
+.spot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+}   
+}
+/*midia para 440*/
+@media screen {
+    * {
+    max-width: 440px;    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: blueviolet;
+    color: white;
+}
+#contaner {
+    margin: 10px 10px 10px;
+}
+/*profile rede*/
+#profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#profile img {
+    width: 130px;
+    border-radius: 80px;
+    padding: 10px;
+    margin: 10px 10px 10px;
+}
+#profile p{
+    margin: auto 10px auto;
+}
+/*links da rede*/
+.links {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+.links ul {
+    margin: 10px 10px 10px;
+}
+.links li {
+    display: flex;
+    padding: 10px;
+    transition: 1s;
+
+    
+}
+.links li a{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    border: solid wheat;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    padding: 12px 50px ;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    animation: zoomin 10s;
+}
+.links li:hover{
+    scale: 1.1;
+}
+keyframes zoomin {
+    from {
+       from {transform: scale(0.6);}
+       to {transform: scale(1);}
+    }
+}
+
+/*roda pe das redes*/
+#redes-soci {
+    display: flex;
+    justify-content: center; 
+    
+}
+#redes-soci #rd-1 a {
+    display: flex;
+    font-size: 100px;
+}
+/*spotfy*/
+.quadro {
+    display: flex;
+    justify-content: center;
+}
+.spot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+}   
+}
+/*midia 1440*/
+@media screen {
+    * {
+    max-width: 1440px;    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: blueviolet;
+    color: white;
+}
+#contaner {
+    margin: 10px 10px 10px;
+}
+/*profile rede*/
+#profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#profile img {
+    width: 130px;
+    border-radius: 80px;
+    padding: 10px;
+    margin: 10px 10px 10px;
+}
+#profile p{
+    margin: auto 10px auto;
+}
+/*links da rede*/
+.links {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+.links ul {
+    margin: 10px 10px 10px;
+}
+.links li {
+    display: flex;
+    padding: 10px;
+    transition: 1s;
+
+    
+}
+.links li a{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    border: solid wheat;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    padding: 12px 50px ;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    animation: zoomin 10s;
+}
+.links li:hover{
+    scale: 1.1;
+}
+keyframes zoomin {
+    from {
+       from {transform: scale(0.6);}
+       to {transform: scale(1);}
+    }
+}
+
+/*roda pe das redes*/
+#redes-soci {
+    display: flex;
+    justify-content: center; 
+    
+}
+#redes-soci #rd-1 a {
+    display: flex;
+    font-size: 100px;
+}
+/*spotfy*/
+.quadro {
+    display: flex;
+    justify-content: center;
+}
+.spot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 400px;
+}   
+}
